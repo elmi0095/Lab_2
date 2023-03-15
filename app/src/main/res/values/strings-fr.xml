@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab_2</string>
+    <string name="button_label">Cliquez ici</string>
+    <string name="checkbox_label">Cocher cela!</string>
+    <string name="switch_label">Allumer/éteindre</string>
+    <string name="edittext_hint">J'aime Android</string>
+    <string name="toast_message">L'étiquette a été mise à jour.</string>
+    <string name="checkbox_snackbar">La case est maintenant %1$s</string>
+    <string name="undo">Annuler</string>
+    <string name="flag">Drapeau</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false">
+
+    <!-- Row 1 -->
+    <TextView
+        android:id="@+id/textView"
+        android:text="I love Android"
+        android:textSize="30dp"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:src="@drawable/flag"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1" />
+
+    <!-- Row 2 -->
+    <Switch
+        android:id="@+id/switch1"
+        android:text="Switch on/off"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1" />
+
+
+    <!-- Row 3 -->
+    <Button
+        android:id="@+id/button"
+        android:text="Press Me"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:text="Check this out!"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1" />
+
+    <!-- Row 4 -->
+    <EditText
+        android:id="@+id/editText"
+        android:hint="I love Android"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1" />
+
+</GridLayout>
